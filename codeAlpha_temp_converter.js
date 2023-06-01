@@ -1,13 +1,8 @@
 function Temp(){
-
-    var val,a,uone,utwo;
-
-
+   var val,a,uone,utwo;
     val=parseInt(document.getElementById("input_value").value);
     uone=document.getElementById("input").value;
     utwo=document.getElementById("output").value;
-
-
     if(uone=='cel' && utwo=='far'){
         a=((val)*9/5)+32;
         document.getElementById('r').value=a.toFixed(3);
